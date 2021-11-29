@@ -1,8 +1,8 @@
+import Home from './Components/Home/Home.jsx';
+
 function App() {
   return (
-    <div className="App">
-      Jogo da Memória
-    </div>
+    <Home />
   );
 }
 

@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1e0546;
+  background: radial-gradient(circle, #1e0546 0%, #2e678c 60%, #dfe4e6 100%);
+}
+.Container .alignCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 100%;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

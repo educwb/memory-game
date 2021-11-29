@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(30, 5, 70);
+  background: radial-gradient(
+    circle,
+    rgba(30, 5, 70, 1) 0%,
+    rgba(46, 103, 140, 1) 60%,
+    rgba(223, 228, 230, 1) 100%
+  );
+
+  .alignCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+  }
+}
